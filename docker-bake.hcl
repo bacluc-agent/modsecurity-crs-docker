@@ -60,12 +60,12 @@ variable "nginx-alpine-image" {
 
 variable "httpd-debian-image" {
     # renovate: depName=httpd datasource=docker
-    default = "2.4.69@sha256:f6a86043744215e4be90cf8804375d90022a711d892c9aa2d7085c089ee2cb54"
+    default = "2.4.71@sha256:32e9403360ab2f1047523e72f256527fb9aee68b342abf6ad03f0d629157f3d9"
 }
 
 variable "httpd-alpine-image" {
     # renovate: depName=httpd datasource=docker
-    default = "2.4.69-alpine@sha256:27336a0e73b420664ea3de684d575c9c5cb09b328dc4449c4c4e47c6d101810c"
+    default = "2.4.71-alpine@sha256:32bd0639bcc4917ef1fd9363a1d9dd2dd9c498565118b062a10d51e43a5c3a24"
 }
 
 variable "modsecurity-nginx-version" {
